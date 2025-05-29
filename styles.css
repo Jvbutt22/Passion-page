@@ -1,0 +1,86 @@
+/* 
+  File: style.css
+  GUI Assignment: Creating Your First Web Page
+  Joseph Vandan Butti, UMass Lowell Computer Science, jbutti@cs.uml.edu
+  Copyright (c) 2025 by Joseph Vandan Butti. All rights reserved. May be freely copied or
+  excerpted for educational purposes with credit to the author.
+  Created on May 28, 2025
+  Description: This CSS file styles the web page content about my passions for driving, travelling, and family.
+*/
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #8F9779;
+  color: black;
+  margin: 40px;
+  line-height: 1.6;
+}
+
+/* Header Styles */
+h1 {
+  color: navy;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: blue;
+  margin-top: 30px;
+}
+
+h3 {
+  color: darkslategray;
+  margin-top: 20px;
+}
+
+/* Paragraphs and Text */
+p {
+  margin-bottom: 15px;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Table Styles */
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 0 10px gray;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid lightgray;
+  text-align: left;
+}
+
+th {
+  background-color: blue;
+  color: white;
+}
+
+/* Image Styling */
+img {
+  display: block;
+  margin: 20px auto;
+  max-width: 90%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px gray;
+}
+
+/* Footer Entity */
+p:last-of-type {
+  text-align: center;
+  font-style: italic;
+  color: gray;
+}
